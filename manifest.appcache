@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-/index.html
-/burrito.png
-/styles/main.css
-/scripts/main.js
+/appcache/
+/appcache/burrito.png
+/appcache/styles/main.css
+/appcache/scripts/main.js
