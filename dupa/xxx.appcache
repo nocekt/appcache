@@ -1,7 +1,5 @@
 CACHE MANIFEST
 
-/appcache/
-/appcache/index.html
 /appcache/burrito.png
 /appcache/styles/main.css
 /appcache/scripts/main.js
