@@ -7,14 +7,11 @@ var someHtml = "<font color='red'> b </font>" +
 "<font color='white'> o </font>";
 
 var someImage = "<br><img src='./burrito.png'>";
-var somePhoto = "<br><img src='./IMG_5683.jpg'>";
 
 window.onload = function(e){
 	
 	if (window.applicationCache) {
 		var appCache = window.applicationCache;
-		appCache.addEventListener('checking', onChecking, false);
-		appCache.addEventListener('cached', onCached, false);
 	}
 	
 	document.getElementById("b1").onclick = function() {
@@ -23,12 +20,4 @@ window.onload = function(e){
 			document.getElementById("d1").innerHTML += someImage; 
 		}, 1000);
 	}
-}
-
-function onCached() {
-	console.log("cached");
-}
-
-function onChecking() {
-	console.log("checking");
 }
