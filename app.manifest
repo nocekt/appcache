@@ -3,6 +3,7 @@ CACHE MANIFEST
 /appcache/burrito.png
 /appcache/styles/main.css
 /appcache/scripts/main.js
+/appcache/scripts/appcache.js
 /appcache/1MB.php?id=1
 /appcache/1MB.php?id=2
 /appcache/1MB.php?id=3
